@@ -1,0 +1,123 @@
+
+
+table, th, tr{
+    /*padding: 5px;
+    margin: 5px;*/
+    border: 2 px solid #758199;
+    border-radius: 10;
+    
+}
+a{
+  margin: 0;
+		padding: 0;
+		border: 0;
+}
+
+bon{
+  border: 2 px solid #758199;
+    border-radius: 10;
+    
+}
+
+h3{
+  text-decoration: underline;
+}
+html{
+  font-family: 'Gotu', sans-serif;
+  color: #ffffff;
+  background-color: #ffffff;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: top center;
+
+}
+
+.btn{
+    padding: 10px;
+    margin-left: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.output{
+    width: 300px;
+    text-align: center;
+}
+
+
+p.round1 {
+    border: 2px solid #758199;
+    border-radius: 10;
+  }
+
+td{
+    position: sticky; 
+    left: 280px;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    33% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(3);
+      opacity: 0;
+    }
+  }
+  td2 {
+    display: inline-flex;
+    align-items: center;
+    background: #C06C84;
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.1);
+    border-radius: 5px;
+    height: 45px;
+    padding: 0 30px;
+    color: #fff;
+    font-family: Lato, Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .3s, transform .3s, box-shadow .3s;
+     will-change: transform;
+     font-family: 'Gotu', sans-serif;
+  }
+
+  .button {
+    background-color: rgb(59, 138, 62); /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px
+  }
+  .button:hover {
+    background-color: rgb(44, 99, 45);
+    color: white;
+  }
+  .button2 {
+    background-color: rgb(185, 45, 63); 
+    color: black; 
+    
+  }
+  
+  .button2:hover {
+    background-color: rgb(146, 35, 50);
+    color: white;
+  }
+
+  
